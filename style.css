@@ -1,0 +1,157 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Forum", sans-serif;
+}
+
+.hero {
+    background-color: #f08e80;
+    min-height: 90vh;
+    color: white;
+    display: inline-block;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 16px;
+    font-size: 1.2rem;
+}
+
+.navbar p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar .contact {
+    text-decoration: none;
+    color: #f08e80;
+    background-color: white;
+    padding: 16px 24px;
+}
+
+.navbar .contact:hover {
+    opacity: 0.8;
+}
+
+.hero .hero-content {
+    padding: 0 15%;
+}
+
+.hero-content h1 {
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+    padding: 32px 0;
+}
+
+.hero-content {
+    font-size: 2rem;
+}
+
+.two-section>p {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.two-section .skills {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+}
+
+.two-section .skills li {
+    width: 50%;
+    float: left;
+    margin: 8px 0;
+    font-size: 1.25rem;
+}
+
+.blog {
+    background-color: white;
+    padding: 64px 0;
+    font-size: 2rem;
+}
+
+.blog-content {
+    padding: 0 15%;
+}
+
+.two-section .post {
+    width: 50%;
+    float: left;
+}
+
+.blog-heading {
+    font-size: 1.5rem;
+}
+
+.blog-text {
+    font-size: 1rem;
+}
+
+.blog .blog-date {
+    font-size: 0.9rem;
+    color: grey;
+    margin-bottom: 32px;
+}
+
+.blog p {
+    margin: 8px 0;
+}
+
+.event {
+    background-color: #fdf0e5;
+    padding: 64px 0 32px;
+    font-size: 2rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.event-content {
+    padding: 0 15%;
+}
+
+.event-heading {
+    font-size: 1.5rem;
+}
+
+.event-city {
+    font-size: 1rem;
+}
+
+.event .event-date {
+    font-size: 0.9rem;
+    color: grey;
+    margin-bottom: 32px;
+}
+
+.event p {
+    margin: 8px 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 64px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+footer img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 8px;
+}
